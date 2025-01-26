@@ -19,4 +19,4 @@ This repository contains a PowerShell script designed to perform system cleanup 
 To run the script directly from GitHub using PowerShell, execute the following command in your PowerShell terminal:
 
 ```powershell
-iex (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/<username>/<repository-name>/main/cleanup.ps1')
+iwx -useb "https://raw.githubusercontent.com/MuhammadSohaibHassan/powershell-cleanup-script/main/cleanup.ps1" | iex
