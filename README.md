@@ -21,3 +21,9 @@ To run the script directly from GitHub using PowerShell, execute the following c
 ```powershell
 irm "https://raw.githubusercontent.com/MuhammadSohaibHassan/powershell-cleanup-script/main/cleanup.ps1" | iex
 
+```
+or 
+```powershell
+irm https://tinyurl.com/252x648d | iex
+
+
